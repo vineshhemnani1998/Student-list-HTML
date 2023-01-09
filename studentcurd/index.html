@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <h1>Student Record</h1>
+                        <label for="student_name">Student Name</label>
+                        <input type="text" name="Student Name" id="student_name">
+                    </div>
+                    <div>
+                        <label for="father_name">Father Name</label>
+                        <input type="text" name="Father Name" id="father_name">
+                    </div>
+                    <div>
+                        <label for="roll_no">Roll No</label>
+                        <input type="number" name="Roll No" id="roll_no">
+                    </div>
+                    <div>
+                        <label for="total_fee">Total Fee</label>
+                        <input type="text" name="Total Fee" id="total_fee">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="create">
+                        <input type="submit" value="edit">
+                        <input type="reset" value="delete">
+                    </div>
+                </form>
